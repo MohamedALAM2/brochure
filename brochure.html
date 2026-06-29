@@ -33,6 +33,7 @@ html,body{ margin:0; padding:0; background:#aeb6c2; font-family:"Segoe UI",syste
 .contactstrip .cs-brand img{ width:9mm; height:9mm; object-fit:contain; }
 .contactstrip .cs-brand b{ font-size:4.2mm; font-weight:900; letter-spacing:-.01em; }
 .contactstrip .cs-item{ display:flex; align-items:center; gap:2.6mm; }
+.contactstrip .cs-item + .cs-item{ border-left:0.3mm solid rgba(255,255,255,.22); padding-left:6mm; }
 .contactstrip .cs-item .ico{ flex:0 0 auto; width:8.5mm; height:8.5mm; border-radius:50%; background:#fff;
   display:flex; align-items:center; justify-content:center; }
 .contactstrip .cs-item .ico img{ width:5.4mm; height:5.4mm; }
@@ -213,7 +214,7 @@ html,body{ margin:0; padding:0; background:#aeb6c2; font-family:"Segoe UI",syste
       </p>
 
       <div class="shot" style="height:46mm; margin-bottom:4mm;">
-        <img src="screens/web1.png" alt="Dashboard" data-swap>
+        <img src="screens/web5.png" alt="Dashboard" data-swap>
       </div>
 
       <div style="background:#fff; border:0.35mm solid var(--line); border-left:1.2mm solid var(--cyan2);
@@ -361,6 +362,7 @@ html,body{ margin:0; padding:0; background:#aeb6c2; font-family:"Segoe UI",syste
         <li><span class="ic"><img src="images/icons/cloud.png"></span><div><b>Containerized &amp; cloud-scalable</b></div></li>
         <li><span class="ic"><img src="images/icons/database.png"></span><div><b>Reliable incident data store</b></div></li>
       </ul>
+      <br>  <br>
 
       <div class="kicker" style="color:var(--navy); font-size:2.7mm; margin-bottom:2mm;">Built with</div>
       <div class="tech">
@@ -373,12 +375,15 @@ html,body{ margin:0; padding:0; background:#aeb6c2; font-family:"Segoe UI",syste
         <div class="t"><img src="images/tools/flutter.svg"><span>Flutter</span></div>
         <div class="t"><img src="images/tools/postgresql.svg"><span>Postgres</span></div>
         <div class="t"><img src="images/tools/docker.svg"><span>Docker</span></div>
+        <div class="t"><img src="images/tools/flask.svg"><span>Flask</span></div>
+        <div class="t"><img src="images/tools/redis.svg"><span>Redis</span></div>
+        <div class="t"><img src="images/tools/tailwindcss.svg"><span>Tailwind</span></div>
       </div>
 
       <div class="spacer"></div>
-      <div style="display:flex; justify-content:center; margin-top:3mm;">
+      <!-- <div style="display:flex; justify-content:center; margin-top:3mm;">
         <div class="circ" style="width:33mm; height:33mm;"><img src="screens/web4.png" alt="" data-swap></div>
-      </div>
+      </div> -->
     </div>
   </div>
 
