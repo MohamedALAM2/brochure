@@ -97,6 +97,7 @@ html,body{ margin:0; padding:0; background:#aeb6c2; font-family:"Segoe UI",syste
 /* numbered steps */
 .steps{ list-style:none; margin:0; padding:0; display:flex; flex-direction:column; gap:0; }
 .steps li{ display:flex; gap:3mm; padding:1.7mm 0; position:relative; }
+.steps.compact li{ padding:0.9mm 0; }
 .steps li:not(:last-child){ border-bottom:0.3mm solid var(--line); }
 .steps .num{ flex:0 0 7mm; height:7mm; border-radius:50%; background:var(--navy); color:#fff;
   font-weight:900; font-size:3.6mm; display:flex; align-items:center; justify-content:center; }
@@ -307,8 +308,8 @@ html,body{ margin:0; padding:0; background:#aeb6c2; font-family:"Segoe UI",syste
 
       <div class="spacer"></div>
       <div style="display:flex; gap:3mm; justify-content:center; margin-top:4mm;">
-        <div class="circ" style="width:33mm; height:33mm;"><img src="screens/mobile4.png" alt="" data-swap></div>
-        <div class="circ" style="width:33mm; height:33mm;"><img src="screens/mobile5.png" alt="" data-swap></div>
+        <div class="circ" style="width:33mm; height:33mm;"><img src="images/ai-feature-monitoring.png" alt="" data-swap></div>
+        <div class="circ" style="width:33mm; height:33mm;"><img src="images/ai-feature-detection.png" alt="" data-swap></div>
       </div>
     </div>
   </div>
@@ -322,7 +323,7 @@ html,body{ margin:0; padding:0; background:#aeb6c2; font-family:"Segoe UI",syste
       </div>
     </div>
     <div class="pad" style="padding-top:5mm;">
-      <ol class="steps">
+      <ol class="steps compact">
         <li><span class="num">1</span><div class="stx"><b>Capture</b><span>Cameras stream live video feeds into the platform.</span></div></li>
         <li><span class="num">2</span><div class="stx"><b>Analyze</b><span>CV &amp; deep-learning models scan each frame for threats.</span></div></li>
         <li><span class="num">3</span><div class="stx"><b>Score</b><span>Detected events are ranked by severity and priority.</span></div></li>
@@ -330,7 +331,7 @@ html,body{ margin:0; padding:0; background:#aeb6c2; font-family:"Segoe UI",syste
         <li><span class="num">5</span><div class="stx"><b>Respond</b><span>Security acts on incidents from the live dashboard.</span></div></li>
       </ol>
 
-      <div class="shot" style="height:30mm; margin:2.5mm 0;">
+      <div class="shot" style="height:36mm; margin:1.5mm 0;">
         <img src="screens/web3.png" alt="" data-swap>
       </div>
 
