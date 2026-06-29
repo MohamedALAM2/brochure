@@ -197,8 +197,9 @@ html,body{ margin:0; padding:0; background:#aeb6c2; font-family:"Segoe UI",syste
   <div class="panel">
     <div class="pad">
       <div style="display:flex; align-items:center; gap:3.5mm;">
-        <div style="flex:0 0 auto; width:18mm; height:18mm; display:flex; align-items:center; justify-content:center;">
+        <div style="flex:0 0 auto; width:18mm; display:flex; flex-direction:column; align-items:center; justify-content:center;">
           <img src="images/logo-keyed.png" alt="logo" style="width:18mm; height:18mm; object-fit:contain;">
+          <div style="width:12mm; height:0.8mm; background:var(--cyan2); border-radius:1mm; margin-top:1mm;"></div>
         </div>
         <h2 class="h-title" style="font-size:7mm; color:var(--navy); margin:0;">About<br>CrimeLens</h2>
       </div>
@@ -215,9 +216,9 @@ html,body{ margin:0; padding:0; background:#aeb6c2; font-family:"Segoe UI",syste
         <img src="screens/web1.png" alt="Dashboard" data-swap>
       </div>
 
-      <div style="background:var(--soft); border:0.35mm solid var(--line); border-left:1.2mm solid var(--blue);
+      <div style="background:#fff; border:0.35mm solid var(--line); border-left:1.2mm solid var(--cyan2);
                   border-radius:2.4mm; padding:3mm 3.4mm; margin-bottom:4mm;">
-        <div class="kicker" style="color:var(--blue); font-size:2.7mm;">The problem it solves</div>
+        <div class="kicker" style="color:var(--cyan2); font-size:2.7mm;">The problem it solves</div>
         <p style="font-size:3.1mm; line-height:1.45; margin:1.4mm 0 0; color:#33455c;">
           Manual monitoring of camera feeds is slow, tiring and error-prone — causing delayed response to
           incidents. CrimeLens replaces continuous human watching with automated, real-time detection while
